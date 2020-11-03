@@ -1,0 +1,155 @@
+/*page html*/
+html {
+  font-size: 62.5%;
+  background: #222222;
+}
+
+/*Taille du questionnaire*/
+body,
+input,
+textarea {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+/*Paragraphes*/
+p {
+  margin: 1.6em 0; /*property sets the margin area on all four sides of an element*/
+}
+
+/*Titre*/
+legend {
+  width: 100%;              /*largeur des boxes*/
+  padding: 10px;            /*différents écarts de remplissage sur les quatre côtés d'un élément*/  
+  font-size: 1.2em;           /*no comment*/
+  color: #a3a3ff;
+  font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  text-align: left;
+  font-weight: 700;
+  
+}
+
+
+/*label of texts*/
+label {
+  display: block;
+  margin-left: 10px;
+  margin-bottom: .5em;
+  color: rgb(255, 255, 255);
+}
+
+/*Size of boxes*/
+input {
+  width: 100%;              /*largeur des boxes*/
+  padding: 10px;            /*différents écarts de remplissage sur les quatre côtés d'un élément*/
+  border-radius: 5px;         /*the raduis of boxes*/
+  border: 1px solid #ccc;  /*define size,type,color*/
+  background:  #333;       /*background color of boxes*/
+  box-shadow: none;         /*Add a shadwo to boxes (in this case,no)*/
+  box-sizing: border-box;   /*Create box*/
+  font-size: 1em;           /*no comment*/
+  -webkit-appearance: none; /*hide scroll option by the side*/
+  color: rgb(255, 255, 255); 
+}
+
+/*Cadre*/
+#formular {
+  margin: auto;
+  max-width: 480px;
+}
+
+#text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.62em;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  font-style: italic;
+}
+
+#champs {
+  margin: 0px 0px 0px 10px;
+  text-align: left;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  
+
+}
+
+#covid19 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#footnotes {
+  color: #fff;
+  margin: 0px 0px 0px 0px;
+  max-width: 400px;
+  font-size: 10px;  
+}
+
+#select-colors {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  background: #333;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-size: 1em;
+  appearance: none;
+  border-color: #999;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#generate-btn {
+  cursor: pointer;
+  padding: .9em;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000191;
+  border-radius: .5em;
+  border-color: #007bff;
+  text-align: center;
+  position: relative;
+  left: 65px;
+}
+
+#crédit {
+  font-size: 1.7em;
+  position:relative;
+  left:80px;
+  top:2px;
+}
+
+#srcProject {
+  position:relative;
+  left:80px;
+  top:2px;
+}
